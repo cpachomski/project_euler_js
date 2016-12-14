@@ -2,7 +2,7 @@
 	What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 */
 
-const max = 20
+const max = 20;
 
 function smallestMultiple(limit) {
 	let currVal = 0;
@@ -21,4 +21,4 @@ function smallestMultiple(limit) {
 	return currVal;
 }
 
-console.log(smallestMultiple(20))
+console.log(smallestMultiple(max))
