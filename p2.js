@@ -13,7 +13,6 @@ function sumEvenFibonaccis(limit) {
 	let evenFibs = [];
 	let sum = 0;
 
-
 	while(prevFib < max) {
 		let holdFib = currFib;
 		currFib = prevFib + currFib;
