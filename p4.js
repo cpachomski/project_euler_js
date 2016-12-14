@@ -17,14 +17,13 @@ function largestPalindrome() {
 				palInts.push(prod);
 			}
 		}
-
 		i++;
 	}
-	
+
 	palInts.forEach((p) => {
-		if (p > largestPal) { largestPal = p ;}
+		if (p > largestPal) { largestPal = p }
 	});
-	
+
 	return largestPal;
 }
 
